@@ -57,7 +57,6 @@ img {
 .aspect-tab {
     position: relative;
     width: 100%;
-    border-radius: 4px;
     background-color: #026FBA;
     box-shadow: 0 0 0 1px rgba(236, 236, 236, 1);
     opacity: 1;
@@ -94,7 +93,7 @@ img {
     position: relative;
     display: block;
     margin: 0;
-    padding: 10px 15px;
+    padding: 0 15px;
     font-size: 0;
     white-space: nowrap;
     cursor: pointer;
@@ -107,7 +106,7 @@ img {
     white-space: normal;
     text-align: left;
     vertical-align: middle;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .aspect-stat {
@@ -372,9 +371,9 @@ section.tab-section {
 
 .pro-title {
     background-color: #808080;
-    border-radius: 5px;
     padding: 15px 30px;
     margin: 0 0 30px;
+    text-align: center;
 }
 
 .pro-title h3 {
@@ -850,6 +849,7 @@ section.tab-section {
     overflow: hidden;
     position: relative;
     border: 1px solid #e8e8e8;
+        text-align: center;
 }
 
 .feature-pro-info > img {
@@ -1341,6 +1341,12 @@ section.tab-section {
     .categories-area h2 {
         display: block;
     }
+        
+        .tab-part-area .container,
+        .fetured-area .container{
+             padding-right: 0;
+                padding-left: 0;   
+        }
 }
 
 /***** Wide Mobile Layout *****/
