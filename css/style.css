@@ -612,7 +612,7 @@ section.tab-section {
 }
 
 .csslider ul li img {
-    height: auto;
+    height: 400px;
     width: auto;
     max-height: 100%;
 }
