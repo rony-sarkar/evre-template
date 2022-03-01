@@ -465,18 +465,18 @@ section.tab-section {
 }
 
 .csslider > ul > li {
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: initial;
-    height: 100%;
-    line-height: normal;
-    overflow: hidden;
-    position: relative;
-    transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1) 0s;
-    vertical-align: middle;
-    white-space: normal;
-    width: 100%;
-    text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: initial;
+	height: 400px;
+	line-height: normal;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1) 0s;
+	vertical-align: middle;
+	white-space: normal;
+	width: 100%;
+	text-align: center;
 }
 
 .csslider > ul > li.scrollable {
@@ -612,9 +612,15 @@ section.tab-section {
 }
 
 .csslider ul li img {
-    height: 400px;
-    width: auto;
-    max-height: 100%;
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 .navigation > label {
@@ -1216,10 +1222,6 @@ section.tab-section {
     }
 
     /* menu end */
-
-    .csslider ul li img {
-        width: auto;
-    }
 
     .csslider > .navigation label {
         width: 60px;
